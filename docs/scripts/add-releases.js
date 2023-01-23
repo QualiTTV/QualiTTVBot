@@ -22,7 +22,7 @@ function addReleases() {
 
                 versionCell.innerHTML = release.version;
                 fileSizeCell.innerHTML = (fileSize / 1024 / 1024).toFixed(2) + " MB";
-                downloadCell.innerHTML = "<a href='" + release.fileName + "' class='btn btn-outline-primary'><i class='bi bi-download'></i> " + release.fileName + "</a>";
+                downloadCell.innerHTML = "<a href='" + filePath + "' class='btn btn-outline-primary'><i class='bi bi-download'></i> " + release.fileName + "</a>";
             }
         };
 
