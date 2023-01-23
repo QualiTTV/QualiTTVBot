@@ -1,0 +1,44 @@
+$light: #F4F3F7;
+$dark: #09080c;
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.body-theme {
+    font-family: 'Aldrich', sans-serif;
+    color: $light;
+    background-color: $dark;
+
+    h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn-outline-primary {
+        --bs-btn-color: $light;
+        --bs-btn-hover-color: $light;
+        --bs-btn-hover-bg: #363048;
+        --bs-btn-border-color: #9D5CFF;
+        --bs-btn-hover-border-color: #9D5CFF;
+        --bs-btn-active-color: $light;
+        --bs-btn-active-bg: #80779B;
+        --bs-btn-active-border-color: #9D5CFF;
+        --bs-btn-disabled-color: #9D5CFF;
+        --bs-btn-disabled-border-color: #9D5CFF;
+        --bs-btn-border-radius: 0; //var(--bs-btn-border-radius);
+    }
+
+    .table {
+        margin: 4rem;
+
+        --bs-table-color: $light;
+
+        td {
+            vertical-align: middle;
+        }
+    }
+}
+

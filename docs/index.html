@@ -2,19 +2,43 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>QualiTTVBot</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/add-releases.js"></script>
 </head>
 
 
 
-<body>
-    <h1>QualiTTVBot</h1>
-    
-    <p>I'm hosted with GitHub Pages.</p>
+<body class="body-theme" onload="addReleases()">
+    <div class="container text-center">
+        <h1>QualiTTVBot</h1>
 
-    <button type="button" class="btn btn-outline-primary">Primary</button>
+        <p>For the power users amongst the twitch streamers.</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Version</th>
+                    <th>File Size</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody id="file-table">
+            </tbody>
+        </table>
+
+        <p>Just extract the files to a directory of your choice and run the application.</p>
+
+        <p>If the application is not running, you likely need to install .NET.</p>
+
+        <p>Once it's running, QualiTTVBot is able to update itself.</p>
+    </div>
 </body>
 
 </html>
