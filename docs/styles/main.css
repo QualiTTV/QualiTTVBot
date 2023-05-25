@@ -24,9 +24,14 @@
   --bs-btn-border-radius: 0;
 }
 .body-theme .table {
-  margin: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   --bs-table-color: $light;
 }
 .body-theme .table td {
   vertical-align: middle;
+}
+.body-theme .links {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }

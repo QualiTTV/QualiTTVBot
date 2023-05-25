@@ -32,13 +32,19 @@ $dark: #363339;
     }
 
     .table {
-        margin: 4rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
 
         --bs-table-color: $light;
 
         td {
             vertical-align: middle;
         }
+    }
+
+    .links {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 }
 
