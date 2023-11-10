@@ -1,6 +1,6 @@
 function addReleases() {
     var releases = [
-        { version: "2.23.9.18 (latest)", fileName: "QualiTTVBot_2_23_09_18.zip" },
+        { version: "2.23.11.10 (latest)", fileName: "QualiTTVBot_2_23_11_10.zip" },
     ]
     
     releases.forEach(function (release) {
